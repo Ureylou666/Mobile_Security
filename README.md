@@ -1,3 +1,6 @@
+#Mobile_Security
+---
+
 # Android
 
 ## 工具使用 (三板斧)
@@ -40,3 +43,15 @@ sh d2j-dex2jar.sh -f ~/path/to/apk_to_decompile.apk
 
 # IOS
 
+###  查看手机logcat日志
+
+控制台
+
+### 使用wireshark抓包
+```
+1. 安装xcode
+2. 安装xcode扩展包
+3. rvictl -s <UDID>
+4. sudo wireshark
+
+```
